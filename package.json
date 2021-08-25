@@ -1,0 +1,26 @@
+{
+  "name": "workshop_6",
+  "version": "1.0.0",
+  "description": "Workshop tutorial for PRB workshop 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarleySaunders/Workshop_6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarleySaunders/Workshop_6/issues"
+  },
+  "homepage": "https://github.com/HarleySaunders/Workshop_6#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.0",
+    "supertest": "^6.1.6"
+  }
+}
