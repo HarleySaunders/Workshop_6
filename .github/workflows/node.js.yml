@@ -29,3 +29,9 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - uses: actions/checkout@v2
+    - uses: akhileshns/heroku-deploy@v3.12.12
+      with:
+        heroku_api_key: ${{secrets.c7621906-0195-46b4-891e-565e32533637}}
+        heroku_app_name: "harleywebapp"
+        heroku_email: "Grenadatt34@gmail.com"
